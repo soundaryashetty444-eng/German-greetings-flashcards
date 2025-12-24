@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(
+        135deg,
+        #000000,
+        #dd0000,
+        #ffce00
+    );
+    min-height: 100vh;
+    text-align: center;
+}
+
+.container {
+    max-width: 420px;
+    margin: 50px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 14px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+}
+
+.flag {
+    width: 60px;
+}
+
+h1 {
+    margin: 10px 0 15px;
+}
+
+.card {
+    margin: 20px 0;
+    padding: 35px;
+    font-size: 22px;
+    border-radius: 12px;
+    background: #f1f5ff;
+    transition: transform 0.4s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.controls button,
+.test-btn,
+.back-btn,
+#options button {
+    padding: 10px 14px;
+    margin: 6px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background: #dd0000;
+    color: white;
+    font-size: 14px;
+}
+
+.controls button:hover,
+.test-btn:hover,
+.back-btn:hover,
+#options button:hover {
+    background: #b30000;
+}
+
+.hidden {
+    display: none;
+}
+
+#options button {
+    display: block;
+    width: 85%;
+    margin: 8px auto;
+}
+
+#result {
+    margin: 10px 0;
+    font-weight: bold;
+}
